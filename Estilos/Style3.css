@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border-radius: 3px;
+}
+body{
+	background-image: url("../Imagenes/Icono.jpg");
+	color: white;
+	font-size: 12px;
+	font-family: verdana;
+	
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+ul{
+	list-style: none;
+}
+p{
+	margin: 20px;
+}
+img{
+	margin-left: 20px;
+}
+
+#cabecera{
+	width: 80%;
+	display: flex;
+	margin-top: 5px;
+	margin-left: 131px;
+	border-bottom:2px solid white;
+	background-image: url("../Imagenes/Cabecera.jpg");
+}
+#cabecera h1{
+	width: 320px;
+	height: 170px; 
+	color: white;
+	margin: auto;
+	margin-top: 8%;
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+	
+}
+.cuerpo{
+	width: 80%;
+	margin: auto;
+}
+section .articulo{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-bottom: 1.2px solid white;
+	background: black;
+
+}
+
+.nav-main{
+	margin-top: 5px;
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 10px 0px;
+	background-color: black;
+
+}
+.nav-brand{
+	width: 100px;
+	height: 50px;
+}
+.nav-main ul{
+	display: flex;
+}
+.nav-main ul li{
+	padding: 10px
+
+}
+.nav-main ul li a{
+	font-size: .9em;
+}
+.nav-main ul li a:hover{
+	border-bottom: 2px solid white;
+	font-size: 1em;
+}
+.nav-main ul.nav-menu{
+	margin-left: : 20px;
+}
+.nav-main ul.nav-menu li{
+	margin: 5px;
+}
+
+/*PIE*/
+.contiene_pie{
+	background:black;
+}
+.pie ul{
+	display: flex;
+	text-align: center;
+	
+}
+
+.pie ul a{
+	font-size: 1.8em;
+	margin: 5px;
+}
+.pie ul a:hover{
+	border-bottom: 2px solid white;
+	font-size: 2em;
+}
+.pie a{
+	margin-left: 5px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+.pie a:hover{
+	border-bottom: 1.5px solid white;
+	font-size: 1.5em;
+}
+.pie p{
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	
+}
+
