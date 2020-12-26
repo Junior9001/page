@@ -92,6 +92,7 @@ section .articulo #juego{
 	width: 70%
 }
 .nav-main{
+	width: 90%;
 	margin-top: 5px;
 	font-size: 17px;
 	display: flex;
@@ -135,6 +136,7 @@ section .articulo #juego{
 
 /*PIE*/
 .contiene_pie{
+	width: 90%;
 	background:black;
 }
 .pie ul{
